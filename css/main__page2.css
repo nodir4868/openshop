@@ -1,0 +1,397 @@
+@import '../css/fonts.css' ;
+
+body {
+    font-family: var(--primary-font) !important;
+    color: var(--primary-color-txt);
+    background: var(--primary-background-body);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-background-nav : #313131 ;
+    --primary-background-menu : #FFFFFF ;
+    --primary-color-menu : #313131 ;
+    --primary-color-txt : #313131 ;
+    --primary-background-body : #FFFFFF ;
+    --primary-font : 'NotoSans' ;
+    --primary-backgroud-grid : #f7f7f7 ;
+    --apple__har-color : #000000 ;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+/* header start */
+
+.header__nav {
+    background: var(--primary-background-nav);
+    margin-bottom: 25px;
+}
+
+.header__item {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #FFFFFF !important;
+}
+
+.header__nav-icon {
+    margin-right: 7.5px;
+}
+
+.header__item2 {
+    margin-right: 50px;
+}
+
+.header__nav-menu {
+    min-width: inherit;
+    background: var(--primary-background-menu);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+.dropdown-item {
+    color: var(--primary-color-menu);
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.header__nav-menu {
+    color: white;
+}
+
+.header__search {
+    margin-bottom: 35px;
+}
+
+.logo::before {
+    content: url(../img/svg/Logo-ligt.svg);
+}
+
+.nav-item {
+    margin-left: 35px;
+}
+
+.header__search-search {
+    background: none;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 19px;
+    width: 440px;
+    border: 1px solid var(--primary-color-menu);
+}
+
+.header__buttom {
+    background: #313131;
+    border: 1px solid var(--primary-color-menu);
+    padding: 16px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: -5px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.header__linkss {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__tabs {
+    margin-bottom: 50px;
+}
+
+.header__tabs-link {
+    gap: 10px;
+    align-items: center;
+}
+
+.header__tabs-btn,
+.btn-check:focus+.btn-secondary, .btn-secondary:focus,
+.btn-secondary:hover,
+.btn-secondary:active:focus {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: var(--primary-color-txt);
+    font-size: 18px;
+
+}
+
+.header__tabs-list,
+.header__tabs-list:hover {
+    color: var(--primary-color-txt);
+    font-size: 18px;
+
+}
+
+.header__tab-menus {
+    background: var(--primary-background-menu);
+    padding: 17px;
+    position: static;
+    z-index: 1;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.header__tabs-itemm {
+    font-size: 16px;
+    color: var(--primary-color-txt);
+    font-weight: 400;
+}
+
+.header__tabs-itel {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    color: var(--primary-color-txt);
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: var(--primary-color-txt);
+    text-decoration: underline;
+}
+
+.header__rek-h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: var(--primary-color-txt);
+}
+
+.all_btn {
+    font-size: 20px;
+    padding: 12px;
+    background: #313131;
+    border: 1px solid var(--primary-color-menu);
+    color: white;
+    width: 190px;
+    display: block;
+    text-align: center;
+}
+
+.all_btn:hover {
+    color: white;
+}
+
+/* header end */
+
+/* apple__phone  start*/
+
+.list-group-item {
+    background: none;
+    border: none;
+}
+
+.list-group-item-action:hover {
+    color: none;
+    background: none;
+}
+
+.list-group-item-action:active {
+    background: none;
+}
+
+.list-group-item.active {
+    background: none;
+    border: none;
+}
+
+.apple__phone {
+    margin-bottom: 40px;
+}
+
+.apple__phone .conatiner {
+    display: flex;
+}
+
+.apple__phone-img {
+    width: 400px;
+    height: 470px;
+}
+
+.apple__phone-group {
+    display: flex;
+    gap: 15px;
+    align-content: space-between;
+}
+
+.list-group-item-action:nth-of-type(1) {
+    margin-top: 40px;
+}
+
+.list-group-item-action {
+    
+}
+
+.apple__h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: var(--apple__har-color);
+}
+
+.apple__h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--apple__har-color);
+}
+
+.apple__h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: var(--apple__har-color);
+}
+
+.apple__round {
+    font-size: 7px;
+    color: var(--apple__har-color);
+    margin-right: 15px;
+}
+
+.apple__p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--apple__har-color);
+    margin-bottom: 5px;
+}
+
+.apple__btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.apple__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-icon {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+
+
+/* apple__phone  end */
+
+/* play__vr  start */
+
+.play__ver {
+    margin-bottom: 70px;
+    padding: 20px 31px 0 0;
+}
+
+.play__ver .container {
+    display: flex;
+}
+
+.play__vr-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color-txt);
+    margin-bottom: 40px;
+}
+
+.play__vr-po {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play__vr-p {
+    font-size: 24px;
+    color: var(--primary-color-txt);
+    width: 454px;
+    margin-bottom: 116px;
+}
+
+/* play__vr  end */
+
+/* footer start */
+
+.footer {
+    background: var(--primary-background-nav);
+    padding: 30px 0 45px;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer__img::before {
+    content: url(../img/svg/Logo.svg);
+    margin-right: 143px;
+}
+
+.footer__sing {
+    margin-right: 55px;
+}
+
+.footer__lorem {
+    font-size: 18px;
+}
+
+.footer__sing-up {
+    margin-bottom: 50px;
+}
+
+.footer__search-search {
+    width: 330px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-right: -5px;
+}
+
+.footer__buttom {
+    width: 190px;
+    height: 50px;
+    background: #313131;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.footer__help {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.footer__help:nth-of-type(1) {
+    margin-left: 10px;
+}
+
+.footer__help:hover {
+    color: #FFFFFF;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 23px;
+    margin-top: 30px;
+}
+
+
+/* footer end */

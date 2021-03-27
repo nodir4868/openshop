@@ -1,0 +1,114 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-background-nav : #0C0C0C ;
+        --primary-background-menu : #0C0C0C ;
+        --primary-color-menu : #FFFFFF;
+        --primary-color-txt : #FFFFFF ;
+        --primary-background-body : #313131 ;
+        --primary-backgroud-grid : #fff ;
+    }
+
+    .logo::before {
+        content: url(../img/svg/Logo.svg);
+    }
+
+    .pl5__image-img::before {
+        content: url(../img/pl5-frank.png);
+    }
+
+    .footer__img::before {
+        content: url(../img/svg/Logo.svg);
+    }
+
+}
+
+/* @media (max-width: 1440px) {} */
+@media (max-width: 1366px) {
+    .header__buttom {
+        margin-left: 0;
+    }
+
+    .header__search-lo {
+        padding: 0 0 0 40px;
+    }
+
+    .phones__content {
+        overflow: hidden;
+        overflow-x: auto;
+        scroll-snap-type: X mandatory;
+    }
+
+    .phone__dec {
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+}
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+@media (max-width: 1140px) {
+    .header__search-lo {
+        padding: 0 0 0 70px;
+    }
+
+    .header__tabs-link {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .rek2__grid {
+        gap: 15px;
+    }
+
+    .section__pl5 {
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .header__rek-h1 {
+        margin-bottom: 10px;
+    }
+
+    .header__rek-item {
+        margin-bottom: 25px;
+    }
+
+    .rek2__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__rek2-desc {
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 90% 0%;
+    }
+   
+    .section__pl5 {
+        background: none
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .header__search-search {
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__search-search {
+        width: 250px;
+    }
+
+    .footer__search-search {
+        width: 250px;
+    }
+
+}

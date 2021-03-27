@@ -1,0 +1,140 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-background-nav : #0C0C0C ;
+        --primary-background-menu : #0C0C0C ;
+        --primary-color-menu : #FFFFFF;
+        --primary-color-txt : #FFFFFF ;
+        --primary-background-body : #313131 ;
+        --primary-backgroud-grid : #fff ;
+        --apple__har-color : #fff ;
+    }
+
+    .logo::before {
+        content: url(../img/svg/Logo.svg);
+    }
+
+    .footer__img::before {
+        content: url(../img/svg/Logo.svg);
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .header__buttom {
+        margin-left: 0;
+    }
+
+    .header__search-lo {
+        padding: 0 0 0 40px;
+    }
+
+    .phones__content {
+        overflow: hidden;
+        overflow-x: auto;
+        scroll-snap-type: X mandatory;
+    }
+}
+
+@media (max-width: 1140px) {
+    .header__search-lo {
+        padding: 0 0 0 70px;
+    }
+
+    .header__tabs-link {
+        flex-direction: column;
+    }
+
+    .play__ver .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .header__rek-h1 {
+        margin-bottom: 10px;
+    }
+
+    .header__rek-item {
+        margin-bottom: 25px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .play__vr-image {
+        width: 175%;
+    }
+
+}
+
+@media (max-width: 736px) {
+    .xbox__box {
+        background-position: center 61%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__search-search {
+        width: 300px;
+    }
+
+    .play__vr-p {
+        width: 300px;
+    }
+
+
+}
+@media (max-width: 414px) {
+    .xbox__p {
+        width: 300px;
+    } 
+
+    .xbox__box {
+        background-position: center 77%;
+    }
+
+    .apple__pro-max {
+        justify-content: center;
+    }
+
+    .xbox__h2  {
+        font-size: 36px;
+    }
+
+    ..xbox__p {
+        font-size: 14px;
+    }  
+
+}
+
+@media (max-width: 375px) {
+    .header__search-search {
+        width: 201px;
+    }
+
+    .footer__search-search {
+        width: 201px;
+    }
+
+    .play__vr-h2 {
+        font-size: 28px;
+    }
+
+    .play__vr-p {
+        font-size: 18px;
+        width: 195px;
+    }
+
+    .apple__phone-img {
+        width: 370px;
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+}
